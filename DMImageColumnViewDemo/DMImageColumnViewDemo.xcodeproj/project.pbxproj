@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857174081B36EAB500A50E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174071B36EAB500A50E72 /* main.m */; };
+		8571740B1B36EAB500A50E72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8571740A1B36EAB500A50E72 /* AppDelegate.m */; };
+		8571740E1B36EAB500A50E72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8571740D1B36EAB500A50E72 /* ViewController.m */; };
+		857174111B36EAB500A50E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8571740F1B36EAB500A50E72 /* Main.storyboard */; };
+		857174131B36EAB500A50E72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857174121B36EAB500A50E72 /* Images.xcassets */; };
+		857174161B36EAB500A50E72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857174141B36EAB500A50E72 /* LaunchScreen.xib */; };
+		857174221B36EAB500A50E72 /* DMImageColumnViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174211B36EAB500A50E72 /* DMImageColumnViewDemoTests.m */; };
+		8571742E1B36EAC000A50E72 /* DMImageColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8571742D1B36EAC000A50E72 /* DMImageColumnView.m */; };
+		857174311B36F79900A50E72 /* DMImageColumnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174301B36F79900A50E72 /* DMImageColumnItem.m */; };
+		857174341B36F7AF00A50E72 /* DMImageColumnImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174331B36F7AF00A50E72 /* DMImageColumnImageView.m */; };
+		85E9DC421B37209B0080044F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85E9DC411B37209B0080044F /* 1.jpg */; };
+		E9645BEC0A474E41D12E810B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96DF79270C273A3BF56587F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8571741C1B36EAB500A50E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857173FA1B36EAB500A50E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857174011B36EAB500A50E72;
+			remoteInfo = DMImageColumnViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		857174021B36EAB500A50E72 /* DMImageColumnViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMImageColumnViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857174061B36EAB500A50E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857174071B36EAB500A50E72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		857174091B36EAB500A50E72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8571740A1B36EAB500A50E72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8571740C1B36EAB500A50E72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8571740D1B36EAB500A50E72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		857174101B36EAB500A50E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857174121B36EAB500A50E72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		857174151B36EAB500A50E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8571741B1B36EAB500A50E72 /* DMImageColumnViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMImageColumnViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857174201B36EAB500A50E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857174211B36EAB500A50E72 /* DMImageColumnViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMImageColumnViewDemoTests.m; sourceTree = "<group>"; };
+		8571742C1B36EAC000A50E72 /* DMImageColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMImageColumnView.h; sourceTree = "<group>"; };
+		8571742D1B36EAC000A50E72 /* DMImageColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMImageColumnView.m; sourceTree = "<group>"; };
+		8571742F1B36F79900A50E72 /* DMImageColumnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMImageColumnItem.h; sourceTree = "<group>"; };
+		857174301B36F79900A50E72 /* DMImageColumnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMImageColumnItem.m; sourceTree = "<group>"; };
+		857174321B36F7AF00A50E72 /* DMImageColumnImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMImageColumnImageView.h; sourceTree = "<group>"; };
+		857174331B36F7AF00A50E72 /* DMImageColumnImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMImageColumnImageView.m; sourceTree = "<group>"; };
+		85E9DC411B37209B0080044F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E96DF79270C273A3BF56587F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857173FF1B36EAB500A50E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9645BEC0A474E41D12E810B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857174181B36EAB500A50E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B94B45FAA340E257A0453E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */,
+				23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DAD9E747050726DC2600271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96DF79270C273A3BF56587F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		857173F91B36EAB500A50E72 = {
+			isa = PBXGroup;
+			children = (
+				8571742B1B36EAC000A50E72 /* DMImageColumnView */,
+				857174041B36EAB500A50E72 /* DMImageColumnViewDemo */,
+				8571741E1B36EAB500A50E72 /* DMImageColumnViewDemoTests */,
+				857174031B36EAB500A50E72 /* Products */,
+				1B94B45FAA340E257A0453E8 /* Pods */,
+				5DAD9E747050726DC2600271 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		857174031B36EAB500A50E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857174021B36EAB500A50E72 /* DMImageColumnViewDemo.app */,
+				8571741B1B36EAB500A50E72 /* DMImageColumnViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857174041B36EAB500A50E72 /* DMImageColumnViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				857174091B36EAB500A50E72 /* AppDelegate.h */,
+				8571740A1B36EAB500A50E72 /* AppDelegate.m */,
+				8571740C1B36EAB500A50E72 /* ViewController.h */,
+				8571740D1B36EAB500A50E72 /* ViewController.m */,
+				8571740F1B36EAB500A50E72 /* Main.storyboard */,
+				857174121B36EAB500A50E72 /* Images.xcassets */,
+				857174141B36EAB500A50E72 /* LaunchScreen.xib */,
+				857174051B36EAB500A50E72 /* Supporting Files */,
+			);
+			path = DMImageColumnViewDemo;
+			sourceTree = "<group>";
+		};
+		857174051B36EAB500A50E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E9DC411B37209B0080044F /* 1.jpg */,
+				857174061B36EAB500A50E72 /* Info.plist */,
+				857174071B36EAB500A50E72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8571741E1B36EAB500A50E72 /* DMImageColumnViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				857174211B36EAB500A50E72 /* DMImageColumnViewDemoTests.m */,
+				8571741F1B36EAB500A50E72 /* Supporting Files */,
+			);
+			path = DMImageColumnViewDemoTests;
+			sourceTree = "<group>";
+		};
+		8571741F1B36EAB500A50E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				857174201B36EAB500A50E72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8571742B1B36EAC000A50E72 /* DMImageColumnView */ = {
+			isa = PBXGroup;
+			children = (
+				8571742C1B36EAC000A50E72 /* DMImageColumnView.h */,
+				8571742D1B36EAC000A50E72 /* DMImageColumnView.m */,
+				8571742F1B36F79900A50E72 /* DMImageColumnItem.h */,
+				857174301B36F79900A50E72 /* DMImageColumnItem.m */,
+				857174321B36F7AF00A50E72 /* DMImageColumnImageView.h */,
+				857174331B36F7AF00A50E72 /* DMImageColumnImageView.m */,
+			);
+			name = DMImageColumnView;
+			path = ../DMImageColumnView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857174011B36EAB500A50E72 /* DMImageColumnViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857174251B36EAB500A50E72 /* Build configuration list for PBXNativeTarget "DMImageColumnViewDemo" */;
+			buildPhases = (
+				4B4A47CED302B15B20A875DC /* Check Pods Manifest.lock */,
+				857173FE1B36EAB500A50E72 /* Sources */,
+				857173FF1B36EAB500A50E72 /* Frameworks */,
+				857174001B36EAB500A50E72 /* Resources */,
+				5E2FDA66C4C0B86619076C7B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMImageColumnViewDemo;
+			productName = DMImageColumnViewDemo;
+			productReference = 857174021B36EAB500A50E72 /* DMImageColumnViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8571741A1B36EAB500A50E72 /* DMImageColumnViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857174281B36EAB500A50E72 /* Build configuration list for PBXNativeTarget "DMImageColumnViewDemoTests" */;
+			buildPhases = (
+				857174171B36EAB500A50E72 /* Sources */,
+				857174181B36EAB500A50E72 /* Frameworks */,
+				857174191B36EAB500A50E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8571741D1B36EAB500A50E72 /* PBXTargetDependency */,
+			);
+			name = DMImageColumnViewDemoTests;
+			productName = DMImageColumnViewDemoTests;
+			productReference = 8571741B1B36EAB500A50E72 /* DMImageColumnViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857173FA1B36EAB500A50E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GoSing;
+				TargetAttributes = {
+					857174011B36EAB500A50E72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8571741A1B36EAB500A50E72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 857174011B36EAB500A50E72;
+					};
+				};
+			};
+			buildConfigurationList = 857173FD1B36EAB500A50E72 /* Build configuration list for PBXProject "DMImageColumnViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857173F91B36EAB500A50E72;
+			productRefGroup = 857174031B36EAB500A50E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857174011B36EAB500A50E72 /* DMImageColumnViewDemo */,
+				8571741A1B36EAB500A50E72 /* DMImageColumnViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857174001B36EAB500A50E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857174111B36EAB500A50E72 /* Main.storyboard in Resources */,
+				85E9DC421B37209B0080044F /* 1.jpg in Resources */,
+				857174161B36EAB500A50E72 /* LaunchScreen.xib in Resources */,
+				857174131B36EAB500A50E72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857174191B36EAB500A50E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4A47CED302B15B20A875DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2FDA66C4C0B86619076C7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857173FE1B36EAB500A50E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857174311B36F79900A50E72 /* DMImageColumnItem.m in Sources */,
+				857174341B36F7AF00A50E72 /* DMImageColumnImageView.m in Sources */,
+				8571740E1B36EAB500A50E72 /* ViewController.m in Sources */,
+				8571740B1B36EAB500A50E72 /* AppDelegate.m in Sources */,
+				857174081B36EAB500A50E72 /* main.m in Sources */,
+				8571742E1B36EAC000A50E72 /* DMImageColumnView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857174171B36EAB500A50E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857174221B36EAB500A50E72 /* DMImageColumnViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8571741D1B36EAB500A50E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857174011B36EAB500A50E72 /* DMImageColumnViewDemo */;
+			targetProxy = 8571741C1B36EAB500A50E72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8571740F1B36EAB500A50E72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857174101B36EAB500A50E72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857174141B36EAB500A50E72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857174151B36EAB500A50E72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857174231B36EAB500A50E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		857174241B36EAB500A50E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857174261B36EAB500A50E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DMImageColumnViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		857174271B36EAB500A50E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DMImageColumnViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		857174291B36EAB500A50E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMImageColumnViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMImageColumnViewDemo.app/DMImageColumnViewDemo";
+			};
+			name = Debug;
+		};
+		8571742A1B36EAB500A50E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMImageColumnViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMImageColumnViewDemo.app/DMImageColumnViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857173FD1B36EAB500A50E72 /* Build configuration list for PBXProject "DMImageColumnViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857174231B36EAB500A50E72 /* Debug */,
+				857174241B36EAB500A50E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857174251B36EAB500A50E72 /* Build configuration list for PBXNativeTarget "DMImageColumnViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857174261B36EAB500A50E72 /* Debug */,
+				857174271B36EAB500A50E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857174281B36EAB500A50E72 /* Build configuration list for PBXNativeTarget "DMImageColumnViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857174291B36EAB500A50E72 /* Debug */,
+				8571742A1B36EAB500A50E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857173FA1B36EAB500A50E72 /* Project object */;
+}
