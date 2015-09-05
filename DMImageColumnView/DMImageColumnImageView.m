@@ -93,6 +93,7 @@
     [self tapCreate];
     [self titleLabelCreate];
     self.showBorder = YES;
+    self.contentMode = UIViewContentModeScaleAspectFit;
 }
 
 - (void)layoutSubviews

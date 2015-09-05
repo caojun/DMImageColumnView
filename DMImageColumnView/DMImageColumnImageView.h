@@ -35,14 +35,13 @@
 @end
 
 
-IB_DESIGNABLE
 @interface DMImageColumnImageView : UIImageView
 
 @property (nonatomic, strong) DMImageColumnItem *m_columnItem;
 
-@property (nonatomic, strong) IBInspectable UIColor *titleColor;
-@property (nonatomic, strong) IBInspectable UIFont *titleFont;
-@property (nonatomic, assign) IBInspectable NSTextAlignment titleAlignment;
+@property (nonatomic, strong) UIColor *titleColor;
+@property (nonatomic, strong) UIFont *titleFont;
+@property (nonatomic, assign) NSTextAlignment titleAlignment;
 /**
  *  是否显示图片边框, 默认 YES
  */

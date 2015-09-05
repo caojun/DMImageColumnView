@@ -43,7 +43,7 @@ extern const NSInteger kDMImageColumnCount;
 
 #pragma mark - DMImageColumnView
 
-IB_DESIGNABLE
+
 @interface DMImageColumnView : UIView
 
 /**
