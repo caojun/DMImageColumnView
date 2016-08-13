@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DMImageColumnView"
   s.version      = "0.0.2"
-  s.summary      = ""
+  s.summary      = "图片按列显示控件"
 
   s.description  = <<-DESC
                    A longer description of DMImageColumnView in Markdown format.
