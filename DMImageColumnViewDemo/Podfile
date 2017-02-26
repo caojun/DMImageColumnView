@@ -1,4 +1,8 @@
 platform :ios, '7.0'
 
+target 'DMImageColumnViewDemo' do
+
 pod 'SDWebImage'
+
+end
 

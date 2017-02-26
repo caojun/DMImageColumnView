@@ -18,7 +18,7 @@
 		857174311B36F79900A50E72 /* DMImageColumnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174301B36F79900A50E72 /* DMImageColumnItem.m */; };
 		857174341B36F7AF00A50E72 /* DMImageColumnImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 857174331B36F7AF00A50E72 /* DMImageColumnImageView.m */; };
 		85E9DC421B37209B0080044F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85E9DC411B37209B0080044F /* 1.jpg */; };
-		E9645BEC0A474E41D12E810B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96DF79270C273A3BF56587F /* libPods.a */; };
+		B2ACD5419F5DD19FA4F44D2F /* libPods-DMImageColumnViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867ECB7EE51F3DB0CC96177C /* libPods-DMImageColumnViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		17433838B4385E2D62FF18E4 /* Pods-DMImageColumnViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMImageColumnViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMImageColumnViewDemo/Pods-DMImageColumnViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		857174021B36EAB500A50E72 /* DMImageColumnViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMImageColumnViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857174061B36EAB500A50E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857174071B36EAB500A50E72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,8 +53,8 @@
 		857174321B36F7AF00A50E72 /* DMImageColumnImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMImageColumnImageView.h; sourceTree = "<group>"; };
 		857174331B36F7AF00A50E72 /* DMImageColumnImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMImageColumnImageView.m; sourceTree = "<group>"; };
 		85E9DC411B37209B0080044F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E96DF79270C273A3BF56587F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		867ECB7EE51F3DB0CC96177C /* libPods-DMImageColumnViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMImageColumnViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE1101C18AEDBA978942AC2 /* Pods-DMImageColumnViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMImageColumnViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMImageColumnViewDemo/Pods-DMImageColumnViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9645BEC0A474E41D12E810B /* libPods.a in Frameworks */,
+				B2ACD5419F5DD19FA4F44D2F /* libPods-DMImageColumnViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,19 +76,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B94B45FAA340E257A0453E8 /* Pods */ = {
+		05FBBB05B0E5EBC04597CC40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */,
-				23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5DAD9E747050726DC2600271 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E96DF79270C273A3BF56587F /* libPods.a */,
+				867ECB7EE51F3DB0CC96177C /* libPods-DMImageColumnViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,8 +91,8 @@
 				857174041B36EAB500A50E72 /* DMImageColumnViewDemo */,
 				8571741E1B36EAB500A50E72 /* DMImageColumnViewDemoTests */,
 				857174031B36EAB500A50E72 /* Products */,
-				1B94B45FAA340E257A0453E8 /* Pods */,
-				5DAD9E747050726DC2600271 /* Frameworks */,
+				D9F58838E956A663F4387043 /* Pods */,
+				05FBBB05B0E5EBC04597CC40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +161,15 @@
 			path = ../DMImageColumnView;
 			sourceTree = "<group>";
 		};
+		D9F58838E956A663F4387043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1101C18AEDBA978942AC2 /* Pods-DMImageColumnViewDemo.debug.xcconfig */,
+				17433838B4385E2D62FF18E4 /* Pods-DMImageColumnViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,11 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 857174251B36EAB500A50E72 /* Build configuration list for PBXNativeTarget "DMImageColumnViewDemo" */;
 			buildPhases = (
-				4B4A47CED302B15B20A875DC /* Check Pods Manifest.lock */,
+				7A656DB701E01579A927D882 /* [CP] Check Pods Manifest.lock */,
 				857173FE1B36EAB500A50E72 /* Sources */,
 				857173FF1B36EAB500A50E72 /* Frameworks */,
 				857174001B36EAB500A50E72 /* Resources */,
-				5E2FDA66C4C0B86619076C7B /* Copy Pods Resources */,
+				CBDA794269F1753DABA5DC10 /* [CP] Embed Pods Frameworks */,
+				18AD385E96FA7225483791C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,34 +270,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B4A47CED302B15B20A875DC /* Check Pods Manifest.lock */ = {
+		18AD385E96FA7225483791C7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMImageColumnViewDemo/Pods-DMImageColumnViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E2FDA66C4C0B86619076C7B /* Copy Pods Resources */ = {
+		7A656DB701E01579A927D882 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDA794269F1753DABA5DC10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMImageColumnViewDemo/Pods-DMImageColumnViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -435,7 +451,7 @@
 		};
 		857174261B36EAB500A50E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B2ADA62F75F5D2103CB360 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8AE1101C18AEDBA978942AC2 /* Pods-DMImageColumnViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -448,7 +464,7 @@
 		};
 		857174271B36EAB500A50E72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23A7B008F2493C55C63F00C5 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 17433838B4385E2D62FF18E4 /* Pods-DMImageColumnViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

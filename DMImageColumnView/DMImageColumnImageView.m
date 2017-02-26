@@ -25,6 +25,7 @@
 #import "DMImageColumnImageView.h"
 #import "DMImageColumnItem.h"
 #import "UIImageView+WebCache.h"
+#import <UIView+WebCache.h>
 
 @interface DMImageColumnImageView ()
 
